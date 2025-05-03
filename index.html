@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>HTML DOM</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+  </head>
+  <body class="d-flex flex-column justify-content-center align-item-center vh-100 bg-light">
+<h1 class="mb-4">Click to celebrate</h1>
+<button class="btn btn-primary" id="showPopupBtn">Show Congratulations</button>
+<!--Modal-->
+<div class="modal fade" id="CongratsModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialoq modal-dialoq-centered">
+        <div class="modal-content text-centered">
+            <div class="modal-header">
+                <h5 class="modal-title">🥳Congratulations</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body">
+                You've triggered this popup using Javascript and the DOM!
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-success" data-bs-dismiss="modal">Close</button>
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
